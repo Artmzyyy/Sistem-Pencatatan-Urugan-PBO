@@ -75,8 +75,29 @@ Aplikasi terdiri dari:
 
 **Tampilan Menu Utama**
 
+<img width="582" height="516" alt="image" src="https://github.com/user-attachments/assets/e877063d-f10c-4025-8d26-dcf91bb8d9fe" />
 
+**Tampilan Input**
 
+<img width="732" height="591" alt="image" src="https://github.com/user-attachments/assets/450a6815-5eb0-4624-86d3-4fd26da7bfb6" />
+
+**Tampilan Laporan Transaksi Jika Belum Ada Data**
+
+<img width="579" height="511" alt="image" src="https://github.com/user-attachments/assets/71e877f8-661f-4694-a51f-119faf694d1a" />
+
+**Tampilan Jika Supplier Belum Ada di Database**
+
+<img width="580" height="511" alt="image" src="https://github.com/user-attachments/assets/4b8ed1c3-bb1e-49af-84c5-661cc62bba8f" />
+
+**Tampilan Jika Supplier Sudah Ada di Database** 
+
+<img width="576" height="510" alt="image" src="https://github.com/user-attachments/assets/7dae6ea4-d4b9-4cc3-9cea-401976d86381" />
+
+**Tampilan Transaksi Berhasil di Simpan**
+
+<img width="732" height="591" alt="image" src="https://github.com/user-attachments/assets/871fc676-04b8-4ef9-bd1d-eab60e6c4725" />
+
+**Tampilan Laporan Transaksi**
 
 ---
 
@@ -88,13 +109,15 @@ Aplikasi terdiri dari:
 ---
 
 ## Analisis Pengerjaan Proyek
-- **Waktu pengerjaan** : ± beberapa minggu
+- **Waktu pengerjaan** : 3 minggu
 - **Kendala** : Perancangan class dan relasi antar objek
 - **Solusi** : Analisis ulang kebutuhan sistem dan penerapan PBO secara bertahap
 - **Pengembangan ke depan** :
   - Penyimpanan database
   - Export laporan ke PDF
   - Validasi input yang lebih lengkap
+  - Fitur pencarian data
+  - Fitur filter berdasarkan tanggal transaksi, dan supplier
 
 ---
 
