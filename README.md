@@ -1,32 +1,58 @@
-# Sistem Pencatatan Urugan Tanah (PBO - Java)
+# Sistem Pencatatan Urugan Tanah Berbasis Java (PBO)
 
-Aplikasi ini merupakan implementasi konsep **Pemrograman Berorientasi Objek (PBO)** menggunakan bahasa pemrograman **Java**, dengan studi kasus **sistem pencatatan transaksi urugan tanah**.  
-Aplikasi dibuat sebagai tugas kerja kelompok mata kuliah Pemrograman Berorientasi Objek.
+## Identitas Proyek
+- **Judul Proyek** : Sistem Pencatatan Urugan Tanah
+- **Mata Kuliah**  : Pemrograman Berorientasi Objek
+- **Dosen Pengampu** : Tedy Setiadi, M.T
+- **Tahun** : 2025
 
----
+### Anggota Kelompok
+1. Muhamad Faizin Al Bahri – 2400018057 
+2. Muhammad Fauzan Anwar – 2400018012
+3. Latifatul Istiana – 2400018037
 
-## 📌 Studi Kasus
-Sistem ini digunakan untuk mencatat transaksi urugan tanah, di mana:
-- Supplier dapat memiliki banyak truk
-- User hanya perlu memasukkan nomor polisi truk saat transaksi
-- Volume urugan dihitung berdasarkan dimensi (panjang × lebar × tinggi)
-- Sistem dapat menampilkan laporan transaksi
-
----
-
-## 🧩 Konsep PBO yang Digunakan
-- **Encapsulation**  
-- **Class & Object**
-- **Association**
-- **Aggregation**
-- **Inheritance**
-- **Polymorphism**
-- **GUI (Java Swing)**
+🔗 **Link Repository**  
+https://github.com/username/Sistem-Pencatatan-Urugan-PBO
 
 ---
 
-## 🏗️ Struktur Class
-Beberapa class utama dalam sistem:
+## Deskripsi Proyek
+Aplikasi ini dibuat untuk membantu proses pencatatan transaksi urugan tanah secara sederhana dan terstruktur.  
+Sistem memungkinkan pengguna untuk mencatat data transaksi berupa nomor polisi kendaraan, supplier, dimensi muatan (panjang, lebar, tinggi), serta menghasilkan informasi volume urugan tanah dalam satuan meter kubik (m³).
+
+Aplikasi dikembangkan menggunakan bahasa pemrograman Java dengan antarmuka berbasis GUI (Swing) serta menerapkan konsep Pemrograman Berorientasi Objek (PBO).
+
+---
+
+## Permasalahan
+Pada proses pencatatan urugan tanah secara manual, sering terjadi:
+- Kesalahan perhitungan volume
+- Data transaksi tidak terdokumentasi dengan baik
+- Sulitnya melihat laporan transaksi secara keseluruhan
+
+Oleh karena itu, dibutuhkan sebuah aplikasi berbasis PBO untuk mengelola data transaksi urugan tanah secara sistematis.
+
+---
+
+## Spesifikasi Aplikasi
+- Input data transaksi urugan tanah
+- Perhitungan otomatis volume (m³)
+- Penyimpanan data transaksi dalam struktur data
+- Tampilan laporan transaksi
+- Antarmuka berbasis GUI (Java Swing)
+
+---
+
+## Konsep PBO yang Digunakan
+- Class dan Object
+- Encapsulation
+- Association antar class
+- Struktur data `ArrayList`
+- Pemisahan logika sistem dan antarmuka GUI
+
+---
+
+## Daftar Class
 - `Supplier`
 - `Truk`
 - `Dimensi`
@@ -38,35 +64,39 @@ Beberapa class utama dalam sistem:
 
 ---
 
-## 🖥️ Fitur Aplikasi
-- Input transaksi urugan tanah
-- Perhitungan volume otomatis (m³)
-- Penyimpanan data transaksi dalam struktur data
-- Menampilkan laporan transaksi melalui GUI
+## Tampilan Aplikasi
+Aplikasi terdiri dari:
+1. Menu Utama
+2. Form Input Transaksi
+3. Form Laporan Transaksi
+
+
+<img width="582" height="366" alt="image" src="https://github.com/user-attachments/assets/ab80c767-5193-45ff-9467-3246bfdcd867" />
+
+**Tampilan Menu Utama**
+
+
+
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
-- Bahasa Pemrograman: **Java**
-- GUI: **Java Swing**
-- IDE: **IntelliJ IDEA / NetBeans**
+## Cara Menjalankan Program
+1. Buka project menggunakan IDE Java (IntelliJ IDEA / NetBeans)
+2. Jalankan file `MainGUI.java`
+3. Pilih menu sesuai kebutuhan
 
 ---
 
-## 👥 Anggota Kelompok
-- Muhammad Fauzan Anwar (2400018012)
-- Latifatul Istiana (2400018037)
-- Muhamad Faizin Al Bahri
+## Analisis Pengerjaan Proyek
+- **Waktu pengerjaan** : ± beberapa minggu
+- **Kendala** : Perancangan class dan relasi antar objek
+- **Solusi** : Analisis ulang kebutuhan sistem dan penerapan PBO secara bertahap
+- **Pengembangan ke depan** :
+  - Penyimpanan database
+  - Export laporan ke PDF
+  - Validasi input yang lebih lengkap
 
 ---
 
-## 📂 Cara Menjalankan Program
-1. Clone repository ini
-2. Buka project menggunakan IDE Java
-3. Jalankan class `MainGUI`
-4. Gunakan menu untuk input transaksi dan melihat laporan
-
----
-
-## 📄 Catatan
-Project ini difokuskan pada penerapan konsep PBO, bukan pada implementasi basis data.
+## Lisensi
+Proyek ini dibuat untuk keperluan akademik.
