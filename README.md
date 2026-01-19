@@ -1,4 +1,4 @@
-<img width="926" height="1006" alt="image" src="https://github.com/user-attachments/assets/4f8dfb23-2b96-4230-bb8e-4d2afb4b2d97" />## A. Identitas Proyek
+## A. Identitas Proyek
 - **Judul Proyek** : Sistem Pencatatan Urugan Tanah
 - **Mata Kuliah**  : Pemrograman Berorientasi Objek
 - **Dosen Pengampu** : Tedy Setiadi, M.T
