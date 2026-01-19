@@ -1,125 +1,65 @@
-# Sistem Pencatatan Urugan Tanah Berbasis Java (PBO)
+##a. Identitas Proyek
 
-## Identitas Proyek
-- **Judul Proyek** : Sistem Pencatatan Urugan Tanah
-- **Mata Kuliah**  : Pemrograman Berorientasi Objek
-- **Dosen Pengampu** : Tedy Setiadi, M.T
-- **Tahun** : 2025
+- Judul Proyek
+Sistem Pencatatan Transaksi Urugan Tanah Berbasis Java
 
-### Anggota Kelompok
-1. Muhamad Faizin Al Bahri – 2400018057 
-2. Muhammad Fauzan Anwar – 2400018012
-3. Latifatul Istiana – 2400018037
+- Mata Kuliah
+Pemrograman Berorientasi Objek
 
-🔗 **Link Repository**  
-https://github.com/Artmzyyy/Sistem-Pencatatan-Urugan-PBO
+- Dosen Pengampu
+Tedy Setiadi, M.T
 
----
+Anggota Kelompok
 
-## Deskripsi Proyek
-Aplikasi ini dibuat untuk membantu proses pencatatan transaksi urugan tanah secara sederhana dan terstruktur.  
-Sistem memungkinkan pengguna untuk mencatat data transaksi berupa nomor polisi kendaraan, supplier, dimensi muatan (panjang, lebar, tinggi), serta menghasilkan informasi volume urugan tanah dalam satuan meter kubik (m³).
+Nama Mahasiswa 1 – NIM
 
-Aplikasi dikembangkan menggunakan bahasa pemrograman Java dengan antarmuka berbasis GUI (Swing) serta menerapkan konsep Pemrograman Berorientasi Objek (PBO).
+Nama Mahasiswa 2 – NIM
 
----
+Nama Mahasiswa 3 – NIM
 
-## Permasalahan
-Pada proses pencatatan urugan tanah secara manual, sering terjadi:
-- Kesalahan perhitungan volume
-- Data transaksi tidak terdokumentasi dengan baik
-- Sulitnya melihat laporan transaksi secara keseluruhan
+Link Repository Github
+https://github.com/username/urugan-tanah-pbo
 
-Oleh karena itu, dibutuhkan sebuah aplikasi berbasis PBO untuk mengelola data transaksi urugan tanah secara sistematis.
+Tampilan Awal Aplikasi
+(Terlampir screenshot menu utama aplikasi)
 
----
+b. Persoalan Bisnis dan Deskripsi Proyek
 
-## Spesifikasi Aplikasi
+Pada proses pencatatan urugan tanah, sering ditemukan permasalahan seperti pencatatan manual yang tidak terstruktur, kesalahan perhitungan volume muatan, serta kesulitan dalam melihat rekap laporan transaksi. Hal ini dapat menyebabkan data transaksi tidak akurat dan sulit untuk ditelusuri kembali.
+
+Berdasarkan permasalahan tersebut, dibuat sebuah aplikasi pencatatan transaksi urugan tanah berbasis Java dengan pendekatan Pemrograman Berorientasi Objek (PBO). Aplikasi ini bertujuan untuk membantu proses pencatatan transaksi secara terstruktur, menghitung volume muatan secara otomatis, serta menampilkan laporan transaksi dengan lebih rapi dan mudah dipahami.
+
+c. Daftar Seluruh Spesifikasi Aplikasi
+
+- Spesifikasi aplikasi yang dirancang antara lain:
 - Input data transaksi urugan tanah
-- Perhitungan otomatis volume (m³)
-- Penyimpanan data transaksi dalam struktur data
-- Tampilan laporan transaksi
-- Antarmuka berbasis GUI (Java Swing)
+- Input nomor polisi kendaraan dan supplier
+- Input dimensi muatan (panjang, lebar, tinggi)
+- Perhitungan volume otomatis dalam satuan meter kubik (m³)
+- Penyimpanan data transaksi menggunakan struktur data
+- Menampilkan laporan transaksi
+- Antarmuka aplikasi berbasis GUI menggunakan Java Swing
 
----
+d. Rancangan Model Diagram UML
 
-## Konsep PBO yang Digunakan
-- Class dan Object
-- Encapsulation
-- Association antar class
-- Struktur data `ArrayList`
-- Pemisahan logika sistem dan antarmuka GUI
+Perancangan sistem menggunakan diagram kelas (Class Diagram) yang menggambarkan hubungan antar class dalam aplikasi. Class utama yang digunakan antara lain Supplier, Truk, Dimensi, Transaksi, dan SistemUrugan. Relasi antar class dirancang sesuai dengan konsep Pemrograman Berorientasi Objek, di mana satu supplier dapat memiliki banyak truk, dan setiap transaksi berkaitan dengan satu truk dan satu dimensi muatan.
 
----
+e. Rancangan Antar Muka Berbasis GUI
 
-## Daftar Class
-- `Supplier`
-- `Truk`
-- `Dimensi`
-- `Transaksi`
-- `SistemUrugan`
-- `MainGUI`
-- `FormInputTransaksi`
-- `FormLaporan`
+Antarmuka aplikasi dirancang menggunakan Java Swing dengan tampilan sederhana dan mudah digunakan. Aplikasi terdiri dari menu utama yang menyediakan pilihan input transaksi, menampilkan laporan, dan keluar dari aplikasi. Selain itu, terdapat form input transaksi untuk memasukkan data urugan serta form laporan untuk menampilkan hasil pencatatan transaksi.
 
----
+f. Skrip Program dan Penjelasannya
 
-## Tampilan Aplikasi
-Aplikasi terdiri dari:
-1. Menu Utama
-2. Form Input Transaksi
-3. Form Laporan Transaksi
+Aplikasi dikembangkan menggunakan bahasa pemrograman Java dengan menerapkan konsep Pemrograman Berorientasi Objek. Setiap entitas pada sistem direpresentasikan dalam bentuk class. Class SistemUrugan berfungsi sebagai pengelola data transaksi, sedangkan class Transaksi menyimpan informasi transaksi urugan. Class Dimensi digunakan untuk menghitung volume muatan, dan class Truk serta Supplier digunakan untuk menyimpan data kendaraan dan penyedia urugan. Antarmuka GUI berfungsi sebagai penghubung antara pengguna dan sistem.
 
+g. Penjelasan Screenshot Tampilan Aplikasi
 
-<img width="582" height="366" alt="image" src="https://github.com/user-attachments/assets/ab80c767-5193-45ff-9467-3246bfdcd867" />
+Screenshot tampilan aplikasi menunjukkan menu utama, form input transaksi, serta halaman laporan transaksi. Menu utama digunakan untuk memilih fitur yang tersedia. Form input transaksi digunakan untuk memasukkan data urugan tanah, sedangkan tampilan laporan digunakan untuk menampilkan data transaksi yang telah disimpan oleh sistem.
 
-**Tampilan Menu Utama**
+h. Penjelasan Screenshot Status Unggah Skrip di Github
 
-<img width="582" height="516" alt="image" src="https://github.com/user-attachments/assets/e877063d-f10c-4025-8d26-dcf91bb8d9fe" />
+Screenshot Github menunjukkan bahwa seluruh skrip program telah berhasil diunggah ke repository Github. Proses pengunggahan dilakukan secara bertahap hingga mencapai versi final proyek. Hal ini menunjukkan bahwa pengembangan aplikasi dilakukan secara terstruktur dan terdokumentasi dengan baik.
 
-**Tampilan Input**
+i. Analisis Pengerjaan Proyek
 
-<img width="732" height="591" alt="image" src="https://github.com/user-attachments/assets/450a6815-5eb0-4624-86d3-4fd26da7bfb6" />
-
-**Tampilan Laporan Transaksi Jika Belum Ada Data**
-
-<img width="579" height="511" alt="image" src="https://github.com/user-attachments/assets/71e877f8-661f-4694-a51f-119faf694d1a" />
-
-**Tampilan Jika Supplier Belum Ada di Database**
-
-<img width="580" height="511" alt="image" src="https://github.com/user-attachments/assets/4b8ed1c3-bb1e-49af-84c5-661cc62bba8f" />
-
-**Tampilan Jika Supplier Sudah Ada di Database** 
-
-<img width="576" height="510" alt="image" src="https://github.com/user-attachments/assets/7dae6ea4-d4b9-4cc3-9cea-401976d86381" />
-
-**Tampilan Transaksi Berhasil di Simpan**
-
-<img width="732" height="591" alt="image" src="https://github.com/user-attachments/assets/871fc676-04b8-4ef9-bd1d-eab60e6c4725" />
-
-**Tampilan Laporan Transaksi**
-
----
-
-## Cara Menjalankan Program
-1. Buka project menggunakan IDE Java (IntelliJ IDEA / NetBeans)
-2. Jalankan file `MainGUI.java`
-3. Pilih menu sesuai kebutuhan
-
----
-
-## Analisis Pengerjaan Proyek
-- **Waktu pengerjaan** : 3 minggu
-- **Kendala** : Perancangan class dan relasi antar objek
-- **Solusi** : Analisis ulang kebutuhan sistem dan penerapan PBO secara bertahap
-- **Pengembangan ke depan** :
-  - Penyimpanan database
-  - Export laporan ke PDF
-  - Validasi input yang lebih lengkap
-  - Fitur pencarian data
-  - Fitur filter berdasarkan tanggal transaksi, dan supplier
-
----
-
-## Lisensi
-Proyek ini dibuat untuk keperluan akademik.
+Pengerjaan proyek dilakukan dalam waktu yang terbatas sesuai dengan ketentuan UAS take home. Dari sisi waktu, proyek dapat diselesaikan tepat waktu dengan pembagian tugas antar anggota kelompok. Dari sisi ketercapaian spesifikasi, sebagian besar fitur utama berhasil diimplementasikan sesuai perencanaan. Dari sisi biaya, proyek tidak memerlukan biaya tambahan karena menggunakan perangkat lunak gratis. Kendala utama yang dihadapi adalah perancangan struktur class dan penerapan konsep PBO secara tepat. Ke depan, aplikasi ini masih dapat dikembangkan dengan menambahkan fitur database, pencetakan laporan, serta peningkatan tampilan antarmuka.
